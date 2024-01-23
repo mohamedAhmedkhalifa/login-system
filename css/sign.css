@@ -1,0 +1,39 @@
+body{
+    text-decoration: none;
+
+}
+#Home {
+    background-image: url(../img/mountains-1112911_1280.jpg);
+    background-position:center center ;
+    background-size: cover;
+    min-height: 100vh;
+    
+}
+#Home .parent{
+    background-color: transparent;
+    box-shadow: -5px 2px 54px -9px black
+ 
+}
+h1{
+    color: #17A2B8;
+}
+input{
+    background-color: transparent !important;
+    color: white;
+}
+::-webkit-input-placeholder { 
+    color:white !important;
+  }
+
+p { 
+    font-size: 18px;
+     color: white;
+} 
+
+p a:hover{
+    border-bottom: 2px solid white;
+}
+ a { 
+    text-decoration:none;
+    color: white;
+}

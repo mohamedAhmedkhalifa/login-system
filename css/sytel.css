@@ -1,0 +1,48 @@
+
+#Home {
+    background-image: url(../img/mountains-1112911_1280.jpg);
+    background-position: center center;
+    background-size:  cover;
+    min-height: 100vh;
+}
+#Home .parent{
+    background-color: transparent;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1)
+ 
+}
+h1{
+    color: #17A2B8;
+}
+input { 
+    margin-block:10px;
+    padding: 7px;
+    border-radius: 10px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: aliceblue;
+}
+input:focus{
+    outline: none;
+    border: 1px solid #17A2B8;
+    box-shadow: 0 0 0 0.2rem  #17A2B8;
+}
+p {
+    font-size: 18px;
+    color: white;
+}
+p button { 
+    border: none;
+    /* background-color: #24353F; */
+    color: white;
+    transition: all 1s;
+}
+p a:hover{
+    border-bottom: 2px solid white;
+}
+.all {
+    color: red;
+} 
+a { 
+    text-decoration:none;
+    color: white;
+}
